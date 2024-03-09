@@ -182,9 +182,12 @@ document.querySelector('.b-13').onclick = makeThirteen;
 
 function makeFourteen() {
 	//Найдите все элементы <p>
+	const paragraphs = document.querySelectorAll('p');
+
 	//const paragraphs = ваш код;
 	paragraphs.forEach(function (paragraph) {
 		//Измените их текстовое содержимое у paragraph
+		paragraph.innerText = "Огого, что могу!";
 	});
 }
 
