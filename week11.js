@@ -146,9 +146,11 @@ document.querySelector('.b-10').onclick = makeTen;
 //Задание 11
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку измените его ширину на 400px и высоту на 200px.
 //Подсказка: Используйте свойство style для изменения стилей элемента
-
+const elevenTask = document.getElementById('practicum11');
 function makeEleven() {
 	//Ваш код
+	elevenTask.style.width = "400px";
+	elevenTask.style.height = "200px";
 }
 
 document.querySelector('.b-11').onclick = makeEleven;
