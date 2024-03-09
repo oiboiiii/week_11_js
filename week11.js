@@ -86,9 +86,13 @@ document.querySelector('.b-6').onclick = makeSix;
 //Задание 7
 //Используйте метод querySelector, чтобы найти элемент <a>. При нажатии на кнопку измените его href на "https://www.google.com", а название ссылки на "Ссылка на Google".
 //Подсказка: Используйте знак равенства для изменения атрибутов элемента и метод для изменения текстового содержимого элемента
+const sevenTask = document.querySelector('#practicum7');
 
 function makeSeven() {
 	//Ваш код
+	var a = document.getElementById('practicum7');
+	a.href = 'https://www.google.com';
+	a.innerText = 'Ссылка на Google';
 }
 
 document.querySelector('.b-7').onclick = makeSeven;
