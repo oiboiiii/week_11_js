@@ -167,9 +167,11 @@ function makeTwelve() {
 //Задание 13
 //Используйте метод `getElementsByTagName`, чтобы найти первый элемент <ol>. Затем измените его текст на "Первый!".
 //Подсказка: Используйте метод для изменения текстового содержимого элемента
-
+const thirdteenTask = document.getElementById("kek");
+//const thirdteenTask = document.getElementsByTagName("ol");
 function makeThirteen() {
 	//Ваш код
+	thirdteenTask.textContent = 'Первый!';
 }
 
 document.querySelector('.b-13').onclick = makeThirteen;
