@@ -121,9 +121,13 @@ document.querySelector('.b-8').onclick = makeEight;
 
 function makeNine() {
 	//Найдите элемент
+	const nineTask = document.getElementById('practicum9');
 	//Создайте новый элемент
+	const newOption = document.createElement('option');
 	//Добавьте текст в созданный эелемент
+	newOption.textContent = "Новый вариант";
 	//Добавьте новый элемент в выпадающий список
+	nineTask.append(newOption);
 }
 
 document.querySelector('.b-9').onclick = makeNine;
