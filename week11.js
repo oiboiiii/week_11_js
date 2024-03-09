@@ -13,19 +13,24 @@ document.querySelector('.b-0').onclick = makeZero;
 //Задание 1
 //Используйте метод getElementById, чтобы найти элемент <p>. При нажатии на кнопку измените его текст на "Привет!"
 //Подсказка: Используйте метод для изменения текстового содержимого элемента (innerHTML/innerText/textContent)
+const firstTask = document.getElementById('practicum');
 
 function makeOne() {
 	//Ваш код
-}
+	firstTask.innerText = 'Привет!';
+};
 
 document.querySelector('.b-1').onclick = makeOne;
+
 
 //Задание 2
 //Используйте метод getElementById, чтобы найти элемент <span>. При нажатии на кнопку измените его текст на "Привет, Мир!"
 //Подсказка: Используйте метод для изменения текстового содержимого элемента (innerHTML/innerText/textContent)
+const secondTask = document.getElementById('practicum2');
 
 function makeTwo() {
 	//Ваш код
+	secondTask.textContent = 'Привет, мир!';
 }
 
 document.querySelector('.b-2').onclick = makeTwo;
@@ -33,9 +38,11 @@ document.querySelector('.b-2').onclick = makeTwo;
 //Задание 3
 //Используйте метод querySelector, чтобы найти элемент <h1>. При нажатии на кнопку измените его текст на "Заголовок изменен!"
 //Подсказка: Используйте метод для изменения текстового содержимого элемента (innerHTML/innerText/textContent)
+const thirdTask = document.querySelector('#practicum3');
 
 function makeThree() {
 	//Ваш код
+	thirdTask.textContent = 'Заголовок изменен!';
 }
 
 document.querySelector('.b-3').onclick = makeThree;
@@ -43,9 +50,10 @@ document.querySelector('.b-3').onclick = makeThree;
 //Задание 4
 //Используйте метод querySelector, чтобы найти элемент <div>. При нажатии на кнопку измените его фоновый цвет на красный.
 //Подсказка: Используйте свойство style для изменения стилей элемента
-
+const fourTask = document.querySelector('#practicum4');
 function makeFour() {
 	//Ваш код
+	fourTask.style.backgroundColor = 'red';
 }
 
 document.querySelector('.b-4').onclick = makeFour;
@@ -53,9 +61,11 @@ document.querySelector('.b-4').onclick = makeFour;
 //Задание 5
 //Используйте метод getElementById, чтобы найти элемент <input>. При нажатии на кнопку измените его значение на "Новое значение".
 //Подсказка: Используйте свойство value для изменения значения элемента формы
+const fiveTask = document.getElementById('practicum5');
 
 function makeFive() {
 	//Ваш код
+	fiveTask.value = 'Новое значение';
 }
 
 document.querySelector('.b-5').onclick = makeFive;
