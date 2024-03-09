@@ -158,9 +158,10 @@ document.querySelector('.b-11').onclick = makeEleven;
 //Задание 12
 //Используйте метод querySelector, чтобы найти элемент <div>. При клике на этот элемент измените его ширину на 400px и высоту на 200px. При повторном клике верните его размеры в исходное состояние.
 //Подсказка: Используйте метод toggle() для добавления/удаления класса, который изменяет размеры элемента
-
+const twelweTask = document.querySelector('#practicum12');
 function makeTwelve() {
 	//Ваш код
+	twelweTask.classList.toggle('large');
 }
 
 //Задание 13
