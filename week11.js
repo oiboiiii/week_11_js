@@ -73,6 +73,7 @@ document.querySelector('.b-5').onclick = makeFive;
 //Задание 6
 //Используйте метод getElementById, чтобы найти элемент <img>. При нажатии на кнопку измените его атрибут src на "newimage.jpg", а атрибут alt на "Новое изображение".
 //Подсказка: Используйте знак равенства для изменения атрибутов элемента
+const sixTask = document.getElementById('practicum6');
 
 function makeSix() {
 	var img = document.getElementById('practicum6');
