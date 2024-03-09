@@ -135,9 +135,10 @@ document.querySelector('.b-9').onclick = makeNine;
 //Задание 10
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку измените его стиль на "display: none;", чтобы скрыть его.
 //Подсказка: Используйте свойство display для изменения стилей элемента
-
+const tenTask = document.getElementById('practicum10');
 function makeTen() {
 	//Ваш код
+	tenTask.style.display = "none";
 }
 
 document.querySelector('.b-10').onclick = makeTen;
