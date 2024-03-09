@@ -101,11 +101,16 @@ document.querySelector('.b-7').onclick = makeSeven;
 //Используйте метод getElementById, чтобы найти элемент <ul>. При нажатии на кнопку добавьте новый элемент <li> со значением "Новый элемент" в список.
 //Подсказка: Используйте метод createElement(), который используется для динамического изменения и взаимодействия с элементами веб-страницы, и метод append(item), который добавляет элемент в конец списка. Новый элемент становится последним элементом списка.
 
+
 function makeEight() {
 	//Найдите элемент x
+	const eightTask = document.getElementById('practicum8');
 	//Создайте новый пункт списка y
+	const newLi = document.createElement('li');
 	//Добавьте значение в созданный пункт списка y
+	newLi.textContent = "Новый элемент";
 	//Добавьте в список х новый элемент y
+	eightTask.append(newLi);
 }
 
 document.querySelector('.b-8').onclick = makeEight;
