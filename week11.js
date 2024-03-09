@@ -198,9 +198,11 @@ document.querySelector('.b-14').onclick = makeFourteen;
 //Задание 15
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку удалите у него класс "practicum15".
 //Подсказка: Используйте метод remove для удаления класса элемента
+const fifteenTask = document.getElementById('practicum15');
 
 function makeFifteen() {
 	//Ваш код
+	fifteenTask.classList.remove('practicum15');
 }
 
 document.querySelector('.b-15').onclick = makeFifteen;
