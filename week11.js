@@ -393,11 +393,12 @@ buttonTaskTwentyEight.addEventListener('click', handleClick)
 //Задание 29
 //Используйте метод getElementById, чтобы найти элемент <input />. Добавьте обработчик события change, который будет выводить сообщение "Значение изменено" в консоль при изменении значения в поле ввода.
 //Подсказка: Используйте метод addEventListener для добавления обработчика события. Чтобы проверить работу слушателя, нужно напечатать один символ и более в поле ввода и убрать фокус с инпута, кликнув на любое место страницы.
+const twentynineTask = document.getElementById('input29');
 
 function handleChange() {
 	console.log('Значение изменено');
 }
-
+twentynineTask.addEventListener('change', handleChange)
 //Ваш код
 
 //Задание 30
