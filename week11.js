@@ -291,11 +291,15 @@ document.querySelector('.b-21').onclick = makeTwentyOne;
 
 function makeTwentyTwo() {
 	//1 шаг: Найдите элемент
+	const twentytwoTask = document.getElementById('practicum22');
 	//2 шаг: Создайте переменную, которая проверяет наличие атрибута у найденного элемента
+	const em = twentytwoTask.hasAttribute('src');
 	//3 шаг: Найдите элемент, в который нужно вставить значение
+	const result = document.getElementById('result22');
 	//4 шаг: Добавьте в эелемент текстовое значение 2 шага. Например: переменная = 'Атрибут "src" присутствует: ' + название переменной из 2 шага;
-}
+	result.innerText = 'Атрибут "src" присутствует: ' + em;
 
+}
 document.querySelector('.b-22').onclick = makeTwentyTwo;
 
 //Задание 23
