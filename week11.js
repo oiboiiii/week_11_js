@@ -351,7 +351,7 @@ document.querySelector('.b-25').onclick = makeTwentyFive;
 //Подсказка: Используйте метод closest для поиска ближайшего родительского элемента
 
 const button = document.querySelector('.b-26');
-// const parent = Ваш код;
+const parent = button.closest('.parent');
 
 const makeTwentySix = () => {
 	parent.style.backgroundColor = 'red';
