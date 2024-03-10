@@ -320,6 +320,9 @@ document.querySelector('.b-23').onclick = makeTwentyThree;
 
 function makeTwentyFour() {
 	//Ваш код
+	const twentyfourTask = document.getElementById('practicum24');
+	twentyfourTask.setAttribute('value', 'Новое значение');
+
 }
 
 document.querySelector('.b-24').onclick = makeTwentyFour;
