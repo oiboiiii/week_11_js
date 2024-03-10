@@ -221,9 +221,12 @@ document.querySelector('.b-16').onclick = makeSixteen;
 //Задание 17
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку переключите у него класс "color", который изменяет его фоновый цвет. Если класс уже присутствует, удалите его, иначе добавьте.
 //Подсказка: Используйте метод toggle класса элемента
+const seventeenTask = document.getElementById('practicum17');
 
 function makeSeventeen() {
 	//Ваш код
+	seventeenTask.classList.toggle('color');
+
 }
 
 document.querySelector('.b-17').onclick = makeSeventeen;
@@ -231,9 +234,11 @@ document.querySelector('.b-17').onclick = makeSeventeen;
 //Задание 18
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку добавьте ему класс "active", который изменит его стиль, например, изменит цвет текста. При повторном нажатии удалите класс "active".
 //Подсказка: Используйте метод toggle класса элемента
+const eighteenTask = document.getElementById('practicum18');
 
 function makeEighteen() {
 	//Ваш код
+	eighteenTask.classList.toggle('active');
 }
 
 document.querySelector('.b-18').onclick = makeEighteen;
