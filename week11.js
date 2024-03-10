@@ -210,9 +210,10 @@ document.querySelector('.b-15').onclick = makeFifteen;
 //Задание 16
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку добавьте ему класс "practicum16".
 //Подсказка: Используйте метод add для добавления класса элемента
-
+const sixteenTask = document.getElementById('practicum16');
 function makeSixteen() {
 	//Ваш код
+	sixteenTask.classList.add('practicum16');
 }
 
 document.querySelector('.b-16').onclick = makeSixteen;
