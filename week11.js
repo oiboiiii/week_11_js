@@ -246,9 +246,11 @@ document.querySelector('.b-18').onclick = makeEighteen;
 //Задание 19
 //Используйте метод getElementById, чтобы найти элемент <div>. При нажатии на кнопку удалите у него класс "active", который изменяет его стиль, например, изменяет цвет текста.
 //Подсказка: Используйте метод remove класса элемента
+const nineteenTask = document.getElementById('practicum19');
 
 function makeNineteen() {
 	//Ваш код
+	nineteenTask.classList.remove('active');
 }
 
 document.querySelector('.b-19').onclick = makeNineteen;
