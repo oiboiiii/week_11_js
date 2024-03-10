@@ -333,10 +333,15 @@ document.querySelector('.b-24').onclick = makeTwentyFour;
 
 function makeTwentyFive() {
 	//1 шаг: Найдите элемент
+	const twentyfiveTask = document.getElementById('practicum25');
 	//2 шаг: Добавьте элементу, найденному в первом шаге, атрибут: ('data-info', 'Дополнительная информация');
+	twentyfiveTask.setAttribute('data-info', 'Дополнительная информация');
 	//3 шаг: Запишите значение атрибута в переменную
+	const dataAtt = twentyfiveTask.getAttribute('data-info');
 	//4 шаг: Найдите элемент, в который нужно вставить значение из 3 шага
+	const result = document.getElementById('infoOutput');
 	//5 шаг: Добавьте в элемент 4 шага текстовое значение 3 шага. Например: переменная = 'Добавленный атрибут: ' + название переменной из 3 шага;
+	result.innerText = 'Добавленный атрибут: ' + dataAtt;
 }
 
 document.querySelector('.b-25').onclick = makeTwentyFive;
