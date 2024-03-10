@@ -261,6 +261,11 @@ document.querySelector('.b-19').onclick = makeNineteen;
 
 function makeTwenty() {
 	//Ваш код
+	const twentyTask = document.getElementById('practicum20');
+	const twentyTaskP = document.createElement('p');
+	twentyTaskP.innerText = 'Добавлено в начало';
+
+	twentyTask.prepend(twentyTaskP);
 }
 
 document.querySelector('.b-20').onclick = makeTwenty;
