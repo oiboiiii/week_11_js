@@ -276,6 +276,11 @@ document.querySelector('.b-20').onclick = makeTwenty;
 
 function makeTwentyOne() {
 	//Ваш код
+	const twentyoneTask = document.getElementById('practicum21');
+	const twentyoneTaskP = document.createElement('p');
+	twentyoneTaskP.innerText = 'Добавлено в конец';
+
+	twentyoneTask.append(twentyoneTaskP);
 }
 
 document.querySelector('.b-21').onclick = makeTwentyOne;
