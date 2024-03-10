@@ -365,9 +365,14 @@ document.querySelector('.b-26').onclick = makeTwentySix;
 
 function makeTwentySeven() {
 	//Найдите переменную
-	//Создайте переменную и сохраните в неё результат проверки метода contains. Например: const result = p.classList.contains('active');
+	const twentysevenTask = document.getElementById('practicum27');
+	//Создайте переменную и сохраните в неё результат проверки метода contains. Например: 
+	const cont = twentysevenTask.classList.contains('highlight');
+
 	//Найдите переменную, в которую нужно вывести результат
+	const result = document.getElementById('result');
 	//Запишите результат в переменную
+	result.innerText = cont;
 }
 
 document.querySelector('.b-27').onclick = makeTwentySeven;
