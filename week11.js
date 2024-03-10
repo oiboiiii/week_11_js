@@ -386,6 +386,7 @@ const buttonTaskTwentyEight = document.getElementById('button28');
 function handleClick() {
 	console.log('Кнопка нажата');
 }
+buttonTaskTwentyEight.addEventListener('click', handleClick)
 
 //Добавьте слушатель eventListener на кнопку buttonTaskTwentyEight
 
