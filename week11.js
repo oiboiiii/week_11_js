@@ -404,9 +404,10 @@ twentynineTask.addEventListener('change', handleChange)
 //Задание 30
 //Используйте метод getElementById, чтобы найти элемент <div>. Добавьте обработчик события `mouseover`, который будет выводить сообщение "Курсор наведен на элемент" в консоль при наведении курсора на элемент.
 //Подсказка: Используйте метод addEventListener для добавления обработчика события. Чтобы проверить работу слушателя, нужно напечатать один символ и более в поле ввода и убрать фокус с инпута, кликнув на любое место страницы.
+const thirtyTask = document.getElementById('div30');
 
 function handleMouseOver() {
 	console.log('Курсор наведен на элемент');
 }
-
+thirtyTask.addEventListener('mouseover', handleMouseOver);
 //Ваш код
