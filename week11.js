@@ -308,6 +308,8 @@ document.querySelector('.b-22').onclick = makeTwentyTwo;
 
 function makeTwentyThree() {
 	//Ваш код
+	const twentythreeTask = document.getElementById('practicum23');
+	twentythreeTask.removeAttribute('href');
 }
 
 document.querySelector('.b-23').onclick = makeTwentyThree;
